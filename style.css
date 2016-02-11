@@ -1,0 +1,29 @@
+body{
+	
+}
+div.container{
+	width:1140px;
+	margin:auto;
+	padding: 0 15px;
+}
+div.main-content{
+	width: 90%;
+}
+div.sidebar{
+	width: 10%;
+	
+}
+div.content{
+	overflow:auto
+}
+article, side, footer,header,section{
+	display: block;
+}
+article,header,footer,aside{
+	
+	padding:10px;
+}
+article{
+	margin-left: 15px;
+	margin-bottom:15px;
+}

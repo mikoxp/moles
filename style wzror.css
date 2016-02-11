@@ -1,0 +1,31 @@
+body{
+	background-color: #0033cc
+}
+div.container{
+	width:1140px;
+	margin:auto;
+	padding: 0 15px;
+}
+div.main-content{
+	width:90%;
+	float:left;
+}
+div.sidebar{
+	width: 10%;
+	float:left;
+	background: rgba(0, 0, 255,0.7);
+}
+div.content{
+	overflow:auto
+}
+article, side, footer,header,section{
+	display: block;
+}
+article,header,footer,aside{
+	background: rgba(102, 191, 255,0.6);
+	padding:10px;
+}
+article{
+	margin-left: 15px;
+	margin-bottom:15px;
+}
