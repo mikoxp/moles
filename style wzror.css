@@ -13,7 +13,7 @@ div.main-content{
 div.sidebar{
 	width: 10%;
 	float:left;
-	background: rgba(0, 0, 255,0.7);
+	background: rgb(51, 153, 255);
 }
 div.content{
 	overflow:auto

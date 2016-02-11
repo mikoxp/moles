@@ -1,17 +1,15 @@
 body{
-	
+	background-color: #ccffff
 }
-div.container{
-	width:1140px;
-	margin:auto;
-	padding: 0 15px;
+div.other{
+	
 }
 div.main-content{
-	width: 90%;
+	width: 85%;
+	background: rgb(51, 153, 255);
 }
 div.sidebar{
-	width: 10%;
-	
+	width: 15%;	
 }
 div.content{
 	overflow:auto
@@ -20,7 +18,7 @@ article, side, footer,header,section{
 	display: block;
 }
 article,header,footer,aside{
-	
+	background: rgb(153, 204, 255);
 	padding:10px;
 }
 article{

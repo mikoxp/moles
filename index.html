@@ -14,17 +14,20 @@
 	<body>
 		<div class="container">
 			<div class="jumbotron">
-				<h1>Moles.za.pl</h1>				
+				<h1>Moles.za.pl</h1>			
 			</div>
-			<div >
+			<div class="other">
 				<div class="col-sm-4 sidebar ">
 					<button type="button" class="btn btn-default " onclick="window.location.href='#/main';">Strona Główna</button>
 					<button type="button" class="btn btn-default " onclick="window.location.href='#/about';">O mnie</button>
+					<button type="button" class="btn btn-default" onclick="window.location.href='https://github.com/mikoxp';">Github</button>
 				</div>
 				<div class=" col-sm-4 main-content">
+					
 					<section>
 						<div ng-view></div> 
 					</section>
+					
 				</div>
 			</div>
 		</div>
