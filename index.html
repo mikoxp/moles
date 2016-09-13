@@ -12,9 +12,11 @@
 	<script src="bower_components/jquery/dist/jquery.min.js"></script>
 	<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
   	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css"/>
+  	<!-- ________________________________________________________________ -->
 	<script src="js/app.js"></script>
 	<script src="js/controllers/main.js"></script>
-	
+	<script src="js/controllers/tutorials.js"></script>
+	<!-- ________________________________________________________________ -->
 	<link rel="stylesheet" href="style.css" type="text/css"/>
 </head>
 
@@ -27,20 +29,20 @@
 		<div class="nav ">
 		</div>
 		<aside class="col-sm-12 col-md-2 col-xs-12 btn-group-vertical side">
-			<button type="button" class="btn btn-primary btn-block btn-nav">Strona Główna</button>
-			<button type="button" class="btn btn-primary btn-block btn-nav">Polecane Tutoriale</button>
+			<a href="#main" class="btn btn-primary btn-block btn-nav">Strona Główna</a>
+			<a  href="#tutorials" class="btn btn-primary btn-block btn-nav">Polecane Tutoriale</a>
 			<div class="btn-group">
-				  <button type="button" class="btn btn-primary   btn-block btn-nav" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				  <a  class="btn btn-primary   btn-block btn-nav" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 				   Moje projekty <span class="caret"></span>
-				  </button>
+				  </a>
 				  <ul class="dropdown-menu dropdown-conf li_a_conf btn-block">
 				    <li><a href="#" class="a_conf">Java</a></li>
 				    <li role="separator" class="divider"></li>
 				    <li><a href="#">Inne</a></li>
 				  </ul>
 			</div>
-			<button type="button" class="btn btn-primary btn-nav">Moje Przemyślenia</button>
-			<button type="button" class="btn btn-primary btn-nav">O mnie</button>
+			<a class="btn btn-primary btn-nav">Moje Przemyślenia</a>
+			<a  class="btn btn-primary btn-nav">O mnie</a>
 		</aside>
 		<div class="col-sm-12 col-md-10 col-xs-12 content">
 				<div ng-view></div> 
@@ -52,7 +54,6 @@
 			</div>
 			<div class="col-md-5 text-left">
 			<a href="https://github.com/mikoxp/moles"><img src="img/githublogoNegativ.png" width="200" height="74"></a>
-		
 			</div>
 			
 			
